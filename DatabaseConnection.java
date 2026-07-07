@@ -3,7 +3,7 @@ package Library_Management_System;
 import java.sql.*;
 
 public class DatabaseConnection {
-    private static final String URL="jdbc:postgresql://localhost:5432/postgres";
+    private static final String URL="jdbc:postgresql://localhost:5432/librarymanager";
     private static final String USERNAME="postgres";
     private static final String PASSWORD="@666AhBv666@";
     public static Connection getConnection() throws SQLException{
